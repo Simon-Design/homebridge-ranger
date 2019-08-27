@@ -37,7 +37,9 @@
     "homebridge": ">=0.4.35"
   },
   "dependencies": {
-    "ble-executor": "^0.1.0",
+    "ble-executor": "git+https://github.com/vectronic/ble-executor.git",
+    "noble": "git+https://github.com/vectronic/noble.git",
+    "bluetooth-hci-socket": "git+https://github.com/abandonware/node-bluetooth-hci-socket",
     "buffer-shims": "^1.0.0",
     "chalk": "^2.4.2",
     "clone": "^2.1.2",
